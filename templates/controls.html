@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Spider Swam</title>
+ 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ 	<style>
+	body {background-color: white}
+	h1 {color:black}
+	.button_font {
+	background-color: white; text-align: center; padding-top:20px; height: 60px; width: 60px; border: 2px; color: black; font-weight: bold;  }
+</style>   
+</head>
+    	<body>
+        {% include 'includes/_navbar.html' %}
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    	<div style="text-align:center">
+	    <div class="container">
+	<div class="jumbotron text-center">
+	<h1>Control Panel</h1>
+
+
+	<span style="display:inline-block;padding:1px;border:none; border-radius: 50%;background-color: white; font-size: 100%;">
+	<br>
+	<a  style="text-decoration: none" class="button_font"type="button" href="/action1">UP</a>
+	<br><br>
+	<img hspace="5" style="padding-left: 5px">
+	<a style="text-decoration: none" class="button_font" type="button"href='/action2'>LEFT</a>
+		<img hspace="5" style="padding-left: 5px">
+	<a style="text-decoration: none" class="button_font" type="button"href='/action3'>ML</a>
+	<img hspace="5" style="padding-left: 5px">
+		<a style="text-decoration: none" class="button_font" type="button"href='/action4'>RIGHT</a>
+	<img hspace="5" style="padding-left: 5px">
+	<br><br>
+		<a class="button_font" type="button"href='/action5'>DOWN</a>
+
+		<!--old button style
+		<button style="height: 70px; width: 70px" onclick="reverse()"><img style="height: 50px"src="images\down2.png"></button>-->
+	<br><br>
+	</span>
+	</div>
+				</div>
+			</div>
+
+	</body>
+</html>

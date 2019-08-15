@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Spider Swam</title>
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body>
+        {% include 'includes/_navbar.html' %}
+        <div class="container">
+	<div class="jumbotron text-center">
+	<h1>Project Spider Swarm</h1>
+	<p class="lead"> Production Studios<br>CSC333\CSC433</p>
+	<p><br>Team Members: <br>Roberto Perry <br>David Reyes <br>Hakim Ottey <br>Daniel Serrano <br>James Guillory <br>Samael Newgate <br>Zack Thompson 
+        {% block body %}{% endblock %}
+        </div>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
